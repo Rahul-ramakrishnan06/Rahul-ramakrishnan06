@@ -92,11 +92,11 @@ Building secure, scalable, and automated cloud-native platforms using AWS, Kuber
 
 ## 🤝 Connect With Me
 
-💼 LinkedIn: YOUR_LINKEDIN
+💼 LinkedIn: 
 
-📧 Email: YOUR_EMAIL
+📧 Email: 
 
-🌐 Portfolio: YOUR_PORTFOLIO
+🌐 Portfolio: 
 
 ---
 
