@@ -1,103 +1,40 @@
-# 👋 Hi, I'm Rahul R
+<h1 align="center">Hi 👋, I'm Rahul R</h1>
 
-### 🚀 DevSecOps Engineer | Cloud Architect | Kubernetes Enthusiast | Blockchain Infrastructure Engineer
+- 🔭 Currently working as a **DevSecOps Engineer at iCliniq**
 
-Building secure, scalable, and automated cloud-native platforms using AWS, Kubernetes, GitOps, and Infrastructure as Code.
+- 🌱 Exploring **AIOps, MLOps, and AI Infrastructure Operations**
 
----
+- ⚡ Worked on **Sony's Soneium Blockchain Infrastructure, Netgear Platform Services**
 
-## 💫 About Me
+- 💬 Ask me about **DevOps, Kubernetes, AWS, Blockchain Infrastructure**
 
-🔭 Currently working as a DevSecOps Engineer
+- 📫 Mail : **rahulkarthi06.02@gmail.com**
 
-☁️ Experienced in AWS, Multi-Cloud Architecture, Kubernetes & Platform Engineering
+<h3 align="left">Connect with me:</h3>
 
-🔐 Passionate about DevSecOps, Security Automation, and Cloud Governance
+<p align="left">
+<a href="https://linkedin.com/in/rahul-r-a9b564211" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rahul-r" height="30" width="40" /></a>
+</p>
 
-⚡ Worked on Sony's Soneium Blockchain Infrastructure, Netgear Platform Services, and Enterprise Infrastructure Automation
+<h3 align="left">Languages and Tools:</h3>
 
-🌱 Currently exploring AIOps, Platform Engineering, and AI-powered Cloud Operations
+<p align="left">
+<a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
+<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+<a href="https://kubernetes.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a>
+<a href="https://www.terraform.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="terraform" width="40" height="40"/> </a>
+<a href="https://www.ansible.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="40" height="40"/> </a>
+<a href="https://argoproj.github.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg" alt="argocd" width="40" height="40"/> </a>
+<a href="https://github.com/features/actions" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="github actions" width="40" height="40"/> </a>
+<a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a>
+<a href="https://prometheus.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="40" height="40"/> </a>
+<a href="https://grafana.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
+<a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
+</p>
 
-💡 Strong believer in "Automate Everything"
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rahul-ramakrishnan06&show_icons=true&locale=en&layout=compact" alt="Rahul-ramakrishnan06" /></p>
 
----
-
-## 🛠️ Tech Stack
-
-### Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud)
-
-### Containers & Orchestration
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm)
-
-### Infrastructure as Code
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible)
-
-### GitOps & CI/CD
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins)
-
-### Monitoring & Security
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube)
-
-### Blockchain
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
-![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism)
-
----
-
-## 🏆 Certifications
-
-✅ AWS Certified Solutions Architect – Associate
-
-✅ Certified Kubernetes Administrator (CKA)
-
-✅ HashiCorp Terraform Associate
-
----
-
-## 🚀 Featured Experience
-
-### Sony - Soneium Blockchain
-- Managed and optimized blockchain infrastructure
-- Kubernetes-based deployments
-- GitOps and Infrastructure Automation
-
-### Netgear
-- Cloud Infrastructure Management
-- CI/CD Pipeline Automation
-- Kubernetes Operations
-
-### Enterprise Infrastructure Automation
-- Terraform & Ansible Automation
-- AWS Infrastructure Provisioning
-- Security and Compliance Implementation
-
----
-
-## 📈 GitHub Stats
-
-![Rahul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
-
----
-
-## 🤝 Connect With Me
-
-💼 LinkedIn: https://www.linkedin.com/in/rahul-r-a9b564211
-
-📧 Email: rahulkarthi06.02@gmail.com
-
----
-
-### ⚡ Fun Fact
-
-"Automation isn't about replacing humans; it's about eliminating repetitive work so humans can build better systems."
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Rahul-ramakrishnan06&show_icons=true&locale=en" alt="Rahul-ramakrishnan06" /></p>
