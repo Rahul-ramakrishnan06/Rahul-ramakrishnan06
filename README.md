@@ -92,11 +92,9 @@ Building secure, scalable, and automated cloud-native platforms using AWS, Kuber
 
 ## 🤝 Connect With Me
 
-💼 LinkedIn: 
+💼 LinkedIn: https://www.linkedin.com/in/rahul-r-a9b564211
 
-📧 Email: 
-
-🌐 Portfolio: 
+📧 Email: rahulkarthi06.02@gmail.com
 
 ---
 
