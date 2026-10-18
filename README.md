@@ -67,7 +67,9 @@ DevSecOps infrastructure lead at **stealth-startup** · data center and cloud (G
 
 <!-- python3 assets/contact-cards.py -->
 <p align="center">
-  <a href="https://github.com/Rahul-ramakrishnan06"><img src="assets/cards/github.svg" width="200" alt="GitHub"></a>
-  <a href="https://in.linkedin.com/in/rahul-r-a9b564211"><img src="assets/cards/linkedin.svg" width="200" alt="LinkedIn"></a>
-  <a href="mailto:rahulkarthi06@gmail.com"><img src="assets/cards/email.svg" width="200" alt="Email"></a>
+  <a href="https://github.com/Rahul-ramakrishnan06"><img src="assets/cards/github.svg" width="168" alt="GitHub"></a>
+  <a href="https://in.linkedin.com/in/rahul-r-a9b564211"><img src="assets/cards/linkedin.svg" width="168" alt="LinkedIn"></a>
+  <a href="https://x.com/R_Rahul_06"><img src="assets/cards/x.svg" width="168" alt="X"></a>
+  <a href="https://www.reddit.com/u/R_ahul_R/s/Y4em13c9Sp"><img src="assets/cards/reddit.svg" width="168" alt="Reddit"></a>
+  <a href="mailto:rahulkarthi06@gmail.com"><img src="assets/cards/email.svg" width="168" alt="Email"></a>
 </p>

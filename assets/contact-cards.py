@@ -6,6 +6,8 @@ from punisher_theme import PUNISHER as P, skull
 CARDS = [
     ("github",   "GitHub",   "Rahul-ramakrishnan06"),
     ("linkedin", "LinkedIn", "rahul-r-a9b564211"),
+    ("x",        "X",        "@R_Rahul_06"),
+    ("reddit",   "Reddit",   "u/R_ahul_R"),
     ("email",    "Email",    "rahulkarthi06@gmail.com"),
 ]
 
