@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1300" role="img" aria-labelledby="t d">
+<title id="t">Intel graph: how Rahul R connects data center and cloud operations</title>
+<desc id="d">An intel graph with Rahul R at the centre, joined to six domains. Multi-cloud: GCP &amp; Cloud Run; AWS &amp; edge cases; Cloudflare WAF &amp; edge; Hybrid connectivity. Data center: Rack &amp; power; Network operations; Bare-metal lifecycle; DR &amp; failover, started. IaC: Terraform modules; Terragrunt stacks; Drift &amp; policy. CI/CD &amp; GitOps: GitHub Actions; ArgoCD &amp; Helm; GitOps workflows. Security: Workload Identity Fed.; Trivy &amp; Chainguard; Cloud posture. Platform: Kubernetes; LiteLLM &amp; RAG; Blockchain nodes; Multi-cluster Karmada, started; Self-hosted data plane, started. Labelled links: Workload Identity Fed. to GitHub Actions, secures; Terraform modules to GitOps workflows, defines; Rack &amp; power to Hybrid connectivity, extends; Trivy &amp; Chainguard to ArgoCD &amp; Helm, gates; Terraform modules to ArgoCD &amp; Helm, feeds. Callouts: zero trust no long-lived keys in CI; identity federation everywhere; data center first what runs on metal still has to meet cloud bar for security; gitops desired state in the repo, not on someone's laptop. A footer lists how decisions are made: mechanism, least privilege, GitOps, supply chain, observability, and outcomes.</desc>
+<defs>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#E8E4E4"/></pattern>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#9A6B6B"/></marker>
+<marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#C41E3A"/></marker>
+<style>
+.s{font-family:"Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif} .m{font-family:ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace} .f{font-family:Georgia, "Times New Roman", "Liberation Serif", serif}
+.halo{paint-order:stroke;stroke:#FAF9F6;stroke-width:4px;stroke-linejoin:round}
+.draw{stroke-dasharray:1;animation:draw .7s ease-out both}
+.fade{animation:fade .5s ease-out both}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .45s cubic-bezier(.2,.9,.3,1.25) both}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.draw,.fade,.pop{animation:none}}
+</style></defs>
+<rect width="1000" height="1300" fill="#FAF9F6"/>
+<rect x="24" y="190" width="952" height="830" fill="url(#dots)"/>
+<rect x="20" y="20" width="960" height="1260" fill="none" stroke="#E4E2DC"/>
+<path d="M27 34H41M34 27V41" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M959 34H973M966 27V41" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M27 1266H41M34 1259V1273" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M959 1266H973M966 1259V1273" stroke="#C41E3A" stroke-width="1.2"/>
+<rect x="48" y="58" width="8" height="8" fill="#C41E3A"/>
+<text class="m" x="64" y="66" font-size="11" letter-spacing="2" fill="#C41E3A">CLASSIFIED INTEL GRAPH</text>
+<text class="f" x="46" y="112" font-size="34" fill="#191B19">Data center to multi-cloud.</text>
+<text class="f" x="46" y="150" font-size="34" fill="#191B19">Hardened. Automated. Measured.</text>
+<text class="m" x="600" y="64" font-size="11.5"><tspan fill="#6B6D71">name .............</tspan><tspan fill="#191B19"> Rahul R</tspan></text>
+<text class="m" x="600" y="83" font-size="11.5"><tspan fill="#6B6D71">role .............</tspan><tspan fill="#191B19"> DevSecOps infrastructure lead</tspan></text>
+<text class="m" x="600" y="102" font-size="11.5"><tspan fill="#6B6D71">focus ............</tspan><tspan fill="#191B19"> DC, GCP, AWS, Cloudflare</tspan></text>
+<text class="m" x="600" y="121" font-size="11.5"><tspan fill="#6B6D71">method ...........</tspan><tspan fill="#191B19"> zero trust &amp; GitOps</tspan></text>
+<text class="m" x="600" y="140" font-size="11.5"><tspan fill="#6B6D71">checks ...........</tspan><tspan fill="#191B19"> scan, posture, uptime</tspan></text>
+<text class="m" x="600" y="159" font-size="11.5"><tspan fill="#6B6D71">profile ..........</tspan><tspan fill="#191B19"> github.com/Rahul-ramakrishnan06</tspan></text>
+<line x1="48" y1="184" x2="952" y2="184" stroke="#191B19" stroke-width="1.4"/>
+<line x1="48" y1="188.5" x2="952" y2="188.5" stroke="#E4E2DC"/>
+<line class="draw" pathLength="1" style="animation-delay:1.59s" x1="483.6" y1="399.8" x2="467.6" y2="281.5" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.57s" x1="483.6" y1="399.8" x2="407.2" y2="317.1" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.00s" x1="483.6" y1="399.8" x2="510.9" y2="244.8" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.56s" x1="483.6" y1="399.8" x2="372.5" y2="354.7" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.11s" x1="664.3" y1="457.1" x2="791.8" y2="472.7" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.07s" x1="664.3" y1="457.1" x2="729.9" y2="364.6" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.05s" x1="664.3" y1="457.1" x2="658.9" y2="323.3" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.09s" x1="664.3" y1="457.1" x2="775.1" y2="407.0" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.17s" x1="701.6" y1="706.0" x2="817.1" y2="685.9" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.22s" x1="701.6" y1="706.0" x2="755.2" y2="813.0" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.19s" x1="701.6" y1="706.0" x2="810.7" y2="756.9" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.25s" x1="535.4" y1="816.3" x2="638.8" y2="873.6" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.27s" x1="535.4" y1="816.3" x2="598.7" y2="918.9" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.31s" x1="535.4" y1="816.3" x2="466.4" y2="919.5" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.35s" x1="347.3" y1="756.3" x2="351.9" y2="876.8" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.38s" x1="347.3" y1="756.3" x2="266.1" y2="834.2" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.40s" x1="347.3" y1="756.3" x2="225.6" y2="772.1" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.49s" x1="266.1" y1="544.0" x2="194.6" y2="451.8" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.48s" x1="266.1" y1="544.0" x2="155.8" y2="494.2" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.46s" x1="266.1" y1="544.0" x2="140.5" y2="562.9" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.51s" x1="266.1" y1="544.0" x2="251.4" y2="410.1" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:1.44s" x1="266.1" y1="544.0" x2="174.6" y2="625.4" stroke="#B89090" stroke-width="1.1"/>
+<line class="draw" pathLength="1" style="animation-delay:0.65s" x1="500" y1="606" x2="483.6" y2="399.8" stroke="#191B19" stroke-width="2.4"/>
+<line class="draw" pathLength="1" style="animation-delay:0.39s" x1="500" y1="606" x2="664.3" y2="457.1" stroke="#191B19" stroke-width="2.4"/>
+<line class="draw" pathLength="1" style="animation-delay:0.45s" x1="500" y1="606" x2="701.6" y2="706.0" stroke="#191B19" stroke-width="2.4"/>
+<line class="draw" pathLength="1" style="animation-delay:0.49s" x1="500" y1="606" x2="535.4" y2="816.3" stroke="#191B19" stroke-width="2.4"/>
+<line class="draw" pathLength="1" style="animation-delay:0.54s" x1="500" y1="606" x2="347.3" y2="756.3" stroke="#191B19" stroke-width="2.4"/>
+<line class="draw" pathLength="1" style="animation-delay:0.59s" x1="500" y1="606" x2="266.1" y2="544.0" stroke="#191B19" stroke-width="2.4"/>
+<g class="fade" style="animation-delay:2.14s"><path class="draw" pathLength="1" style="animation-delay:2.14s" d="M360.9 876.7Q495.0 926.9 627.8 873.8" fill="none" stroke="#9A6B6B" stroke-width="1.3" marker-end="url(#ah)"/></g>
+<g class="fade" style="animation-delay:2.07s"><path class="draw" pathLength="1" style="animation-delay:2.07s" d="M809.6 690.9Q514.1 609.3 475.6 913.4" fill="none" stroke="#9A6B6B" stroke-width="1.3" marker-end="url(#ah)"/></g>
+<g class="fade" style="animation-delay:2.04s"><path class="draw" pathLength="1" style="animation-delay:2.04s" d="M783.2 470.2Q604.4 338.5 383.1 357.6" fill="none" stroke="#9A6B6B" stroke-width="1.3" marker-end="url(#ah)"/></g>
+<g class="fade" style="animation-delay:2.15s"><path class="draw" pathLength="1" style="animation-delay:2.15s" d="M274.8 836.4Q446.7 816.5 588.0 916.2" fill="none" stroke="#9A6B6B" stroke-width="1.3" marker-end="url(#ah)"/></g>
+<g class="fade" style="animation-delay:2.07s"><path class="fade" style="animation-delay:2.07s" d="M811.0 692.5Q906.7 987.4 606.2 910.9" fill="none" stroke="#C41E3A" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#aa)"/></g>
+<g class="pop" style="animation-delay:1.15s">
+<rect x="466.6" y="382.8" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="470.6" y="386.8" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.30s" x="420.6" y="439.8" text-anchor="end" font-size="11" fill="#C41E3A">01</text>
+<text class="s halo fade" style="animation-delay:1.30s" x="483.6" y="439.8" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">Multi-cloud</text>
+<g class="pop" style="animation-delay:0.89s">
+<rect x="647.3" y="440.1" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="651.3" y="444.1" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.04s" x="598.6" y="497.1" text-anchor="end" font-size="11" fill="#C41E3A">02</text>
+<text class="s halo fade" style="animation-delay:1.04s" x="664.3" y="497.1" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">Data center</text>
+<g class="pop" style="animation-delay:0.95s">
+<rect x="684.6" y="689.0" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="688.6" y="693.0" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.10s" x="674.0" y="746.0" text-anchor="end" font-size="11" fill="#C41E3A">03</text>
+<text class="s halo fade" style="animation-delay:1.10s" x="701.6" y="746.0" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">IaC</text>
+<g class="pop" style="animation-delay:0.99s">
+<rect x="518.4" y="799.3" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="522.4" y="803.3" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.14s" x="444.3" y="856.3" text-anchor="end" font-size="11" fill="#C41E3A">04</text>
+<text class="s halo fade" style="animation-delay:1.14s" x="535.4" y="856.3" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">CI/CD &amp; GitOps</text>
+<g class="pop" style="animation-delay:1.04s">
+<rect x="330.3" y="739.3" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="334.3" y="743.3" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.19s" x="298.4" y="796.3" text-anchor="end" font-size="11" fill="#C41E3A">05</text>
+<text class="s halo fade" style="animation-delay:1.19s" x="347.3" y="796.3" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">Security</text>
+<g class="pop" style="animation-delay:1.09s">
+<rect x="249.1" y="527.0" width="34.0" height="34.0" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="253.1" y="531.0" width="26.0" height="26.0" fill="#191B19"/>
+</g>
+<text class="m halo fade" style="animation-delay:1.24s" x="216.2" y="584.0" text-anchor="end" font-size="11" fill="#C41E3A">06</text>
+<text class="s halo fade" style="animation-delay:1.24s" x="266.1" y="584.0" text-anchor="middle" font-size="22" font-weight="700" fill="#191B19">Platform</text>
+<g class="pop" style="animation-delay:1.79s">
+<rect x="462.2" y="276.1" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.94s" x="467.6" y="303.5" text-anchor="middle" font-size="15.5" fill="#191B19">GCP &amp; Cloud Run</text>
+<g class="pop" style="animation-delay:1.77s">
+<rect x="401.8" y="311.7" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.92s" x="407.2" y="339.1" text-anchor="middle" font-size="15.5" fill="#191B19">AWS &amp; edge cases</text>
+<g class="pop" style="animation-delay:1.20s">
+<rect x="505.5" y="239.4" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.35s" x="510.9" y="266.8" text-anchor="middle" font-size="15.5" fill="#191B19">Cloudflare WAF &amp; edge</text>
+<g class="pop" style="animation-delay:1.76s">
+<rect x="367.1" y="349.3" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.91s" x="372.5" y="376.7" text-anchor="middle" font-size="15.5" fill="#191B19">Hybrid connectivity</text>
+<g class="pop" style="animation-delay:1.31s">
+<rect x="786.4" y="467.3" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.46s" x="791.8" y="494.7" text-anchor="middle" font-size="15.5" fill="#191B19">Rack &amp; power</text>
+<g class="pop" style="animation-delay:1.27s">
+<rect x="724.5" y="359.2" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.42s" x="729.9" y="386.6" text-anchor="middle" font-size="15.5" fill="#191B19">Network operations</text>
+<g class="pop" style="animation-delay:1.25s">
+<rect x="653.5" y="317.9" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.40s" x="658.9" y="345.3" text-anchor="middle" font-size="15.5" fill="#191B19">Bare-metal lifecycle</text>
+<g class="pop" style="animation-delay:1.29s">
+<rect x="769.7" y="401.6" width="10.8" height="10.8" fill="#FAF9F6" stroke="#C41E3A" stroke-width="1.8"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.44s" x="775.1" y="429.0" text-anchor="middle" font-size="15.5" fill="#191B19">DR &amp; failover</text>
+<g class="pop" style="animation-delay:1.37s">
+<rect x="811.7" y="680.5" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.52s" x="817.1" y="707.9" text-anchor="middle" font-size="15.5" fill="#191B19">Terraform modules</text>
+<g class="pop" style="animation-delay:1.42s">
+<rect x="749.8" y="807.6" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.57s" x="755.2" y="835.0" text-anchor="middle" font-size="15.5" fill="#191B19">Terragrunt stacks</text>
+<g class="pop" style="animation-delay:1.39s">
+<rect x="805.3" y="751.5" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.54s" x="810.7" y="778.9" text-anchor="middle" font-size="15.5" fill="#191B19">Drift &amp; policy</text>
+<g class="pop" style="animation-delay:1.45s">
+<rect x="633.4" y="868.2" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.60s" x="638.8" y="895.6" text-anchor="middle" font-size="15.5" fill="#191B19">GitHub Actions</text>
+<g class="pop" style="animation-delay:1.47s">
+<rect x="593.3" y="913.5" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.62s" x="598.7" y="940.9" text-anchor="middle" font-size="15.5" fill="#191B19">ArgoCD &amp; Helm</text>
+<g class="pop" style="animation-delay:1.51s">
+<rect x="461.0" y="914.1" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.66s" x="466.4" y="941.5" text-anchor="middle" font-size="15.5" fill="#191B19">GitOps workflows</text>
+<g class="pop" style="animation-delay:1.55s">
+<rect x="346.5" y="871.4" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.70s" x="351.9" y="898.8" text-anchor="middle" font-size="15.5" fill="#191B19">Workload Identity Fed.</text>
+<g class="pop" style="animation-delay:1.58s">
+<rect x="260.7" y="828.8" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.73s" x="266.1" y="856.2" text-anchor="middle" font-size="15.5" fill="#191B19">Trivy &amp; Chainguard</text>
+<g class="pop" style="animation-delay:1.60s">
+<rect x="220.2" y="766.7" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.75s" x="225.6" y="794.1" text-anchor="middle" font-size="15.5" fill="#191B19">Cloud posture</text>
+<g class="pop" style="animation-delay:1.69s">
+<rect x="189.2" y="446.4" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.84s" x="194.6" y="473.8" text-anchor="middle" font-size="15.5" fill="#191B19">Kubernetes</text>
+<g class="pop" style="animation-delay:1.68s">
+<rect x="150.4" y="488.8" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.83s" x="155.8" y="516.2" text-anchor="middle" font-size="15.5" fill="#191B19">LiteLLM &amp; RAG</text>
+<g class="pop" style="animation-delay:1.66s">
+<rect x="135.1" y="557.5" width="10.8" height="10.8" fill="#C41E3A"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.81s" x="140.5" y="584.9" text-anchor="middle" font-size="15.5" fill="#191B19">Blockchain nodes</text>
+<g class="pop" style="animation-delay:1.71s">
+<rect x="246.0" y="404.7" width="10.8" height="10.8" fill="#FAF9F6" stroke="#C41E3A" stroke-width="1.8"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.86s" x="251.4" y="432.1" text-anchor="middle" font-size="15.5" fill="#191B19">Multi-cluster Karmada</text>
+<g class="pop" style="animation-delay:1.64s">
+<rect x="169.2" y="620.0" width="10.8" height="10.8" fill="#FAF9F6" stroke="#C41E3A" stroke-width="1.8"/>
+</g>
+<text class="s halo fade" style="animation-delay:1.79s" x="174.6" y="647.4" text-anchor="middle" font-size="15.5" fill="#191B19">Self-hosted data plane</text>
+<text class="m halo fade" style="animation-delay:2.64s" x="494.7" y="905.0" text-anchor="middle" font-size="11" fill="#5C3030">secures</text>
+<text class="m halo fade" style="animation-delay:2.57s" x="553.3" y="730.0" text-anchor="middle" font-size="11" fill="#5C3030">defines</text>
+<text class="m halo fade" style="animation-delay:2.54s" x="593.7" y="380.2" text-anchor="middle" font-size="11" fill="#5C3030">extends</text>
+<text class="m halo fade" style="animation-delay:2.65s" x="413.8" y="844.8" text-anchor="middle" font-size="11" fill="#5C3030">gates</text>
+<text class="m halo fade" style="animation-delay:2.57s" x="807.6" y="898.5" text-anchor="middle" font-size="11" fill="#C41E3A">feeds</text>
+<g class="fade" style="animation-delay:2.9s">
+<path d="M351.9 876.8V244.0H266.0" fill="none" stroke="#191B19" stroke-width="0.8" stroke-dasharray="2 2"/>
+<circle cx="351.9" cy="876.8" r="11.0" fill="none" stroke="#191B19" stroke-width="0.9"/>
+<rect x="48" y="214" width="218.0" height="60" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="48" y="214" width="3" height="60" fill="#C41E3A"/>
+<text class="m" x="60" y="234" font-size="11" font-weight="600" fill="#191B19">zero trust</text>
+<text class="m" x="60" y="250" font-size="11" font-weight="400" fill="#6B6D71">no long-lived keys in CI;</text>
+<text class="m" x="60" y="266" font-size="11" font-weight="400" fill="#6B6D71">identity federation everywhere</text>
+<path d="M791.8 472.7V244.0H980.4" fill="none" stroke="#191B19" stroke-width="0.8" stroke-dasharray="2 2"/>
+<circle cx="791.8" cy="472.7" r="11.0" fill="none" stroke="#191B19" stroke-width="0.9"/>
+<rect x="736" y="214" width="244.4" height="60" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="736" y="214" width="3" height="60" fill="#C41E3A"/>
+<text class="m" x="748" y="234" font-size="11" font-weight="600" fill="#191B19">data center first</text>
+<text class="m" x="748" y="250" font-size="11" font-weight="400" fill="#6B6D71">what runs on metal still</text>
+<text class="m" x="748" y="266" font-size="11" font-weight="400" fill="#6B6D71">has to meet cloud bar for security</text>
+<path d="M466.4 919.5V960.0H690.0" fill="none" stroke="#191B19" stroke-width="0.8" stroke-dasharray="2 2"/>
+<circle cx="466.4" cy="919.5" r="11.0" fill="none" stroke="#191B19" stroke-width="0.9"/>
+<rect x="690" y="930" width="191.6" height="60" fill="#FAF9F6" stroke="#191B19" stroke-width="0.9"/>
+<rect x="690" y="930" width="3" height="60" fill="#C41E3A"/>
+<text class="m" x="702" y="950" font-size="11" font-weight="600" fill="#191B19">gitops</text>
+<text class="m" x="702" y="966" font-size="11" font-weight="400" fill="#6B6D71">desired state in the repo,</text>
+<text class="m" x="702" y="982" font-size="11" font-weight="400" fill="#6B6D71">not on someone's laptop</text>
+</g>
+<g class="fade">
+<circle cx="500" cy="606" r="74" fill="#FAF9F6" stroke="#C41E3A" stroke-width="1" stroke-dasharray="2 4"/>
+<path d="M406 606H422M578 606H594M500 512V528M500 684V700" stroke="#C41E3A" stroke-width="1.4"/>
+<text class="f halo" x="500" y="614" text-anchor="middle" font-size="34" fill="#191B19">Rahul R</text>
+<text class="m" x="500" y="648" text-anchor="middle" font-size="9.5" letter-spacing="1.4" fill="#C41E3A">DEVSECOPS INFRA LEAD</text>
+</g>
+<line x1="48" y1="1036" x2="952" y2="1036" stroke="#191B19" stroke-width="1.4"/>
+<line x1="48" y1="1040.5" x2="952" y2="1040.5" stroke="#E4E2DC"/>
+<text class="m" x="48" y="1070" font-size="11" letter-spacing="1.6" fill="#C41E3A">READING THE GRAPH</text>
+<rect x="50" y="1086" width="11" height="11" fill="#C41E3A"/>
+<text class="s" x="72" y="1096" font-size="13.5" fill="#191B19">shown in public work</text>
+<rect x="50" y="1110" width="11" height="11" fill="#FAF9F6" stroke="#C41E3A" stroke-width="1.8"/>
+<text class="s" x="72" y="1120" font-size="13.5" fill="#191B19">started, early</text>
+<rect x="52" y="1136" width="7" height="7" fill="#FAF9F6" stroke="#868A84" stroke-width="1.3"/>
+<text class="s" x="72" y="1144" font-size="13.5" fill="#191B19">interest, nothing public yet</text>
+<text class="m" x="48" y="1182" font-size="11" letter-spacing="1.6" fill="#C41E3A">LINKS</text>
+<line x1="48" y1="1204" x2="78" y2="1204" stroke="#9A6B6B" stroke-width="1.3" marker-end="url(#ah)"/>
+<text class="s" x="90" y="1208" font-size="13.5" fill="#191B19">one idea feeds another</text>
+<line x1="48" y1="1228" x2="78" y2="1228" stroke="#C41E3A" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#aa)"/>
+<text class="s" x="90" y="1232" font-size="13.5" fill="#191B19">feedback loop</text>
+<line x1="352" y1="1054" x2="352" y2="1222" stroke="#E4E2DC"/>
+<text class="m" x="372" y="1070" font-size="11" letter-spacing="1.6" fill="#C41E3A">HOW I DECIDE</text>
+<text class="m" x="372" y="1096" font-size="11" fill="#C41E3A">01</text>
+<text class="s" x="398" y="1096" font-size="13.5" fill="#191B19"><tspan font-weight="700">mechanism</tspan><tspan fill="#55575C">  understand network, identity, and state</tspan></text>
+<text class="m" x="372" y="1119" font-size="11" fill="#C41E3A">02</text>
+<text class="s" x="398" y="1119" font-size="13.5" fill="#191B19"><tspan font-weight="700">least privilege</tspan><tspan fill="#55575C">  no standing credentials in pipelines</tspan></text>
+<text class="m" x="372" y="1142" font-size="11" fill="#C41E3A">03</text>
+<text class="s" x="398" y="1142" font-size="13.5" fill="#191B19"><tspan font-weight="700">gitops</tspan><tspan fill="#55575C">  declarative desired state in version control</tspan></text>
+<text class="m" x="372" y="1165" font-size="11" fill="#C41E3A">04</text>
+<text class="s" x="398" y="1165" font-size="13.5" fill="#191B19"><tspan font-weight="700">supply chain</tspan><tspan fill="#55575C">  harden images; scan in every build</tspan></text>
+<text class="m" x="372" y="1188" font-size="11" fill="#C41E3A">05</text>
+<text class="s" x="398" y="1188" font-size="13.5" fill="#191B19"><tspan font-weight="700">observability</tspan><tspan fill="#55575C">  measure uptime, cost, and recovery time</tspan></text>
+<text class="m" x="372" y="1211" font-size="11" fill="#C41E3A">06</text>
+<text class="s" x="398" y="1211" font-size="13.5" fill="#191B19"><tspan font-weight="700">outcomes</tspan><tspan fill="#55575C">  blast radius and SLA over tool fashion</tspan></text>
+<text class="s" x="48" y="1262" font-size="11.5" fill="#55575C">Squares show public evidence, not skill level.</text>
+</svg>

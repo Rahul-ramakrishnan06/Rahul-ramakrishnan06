@@ -1,40 +1,53 @@
-<h1 align="center">Hi 👋, I'm Rahul R</h1>
+# Rahul R
 
-- 🔭 Currently working as a **DevSecOps Engineer at iCliniq**
+**Data center to multi-cloud. Hardened pipelines. Measurable outcomes.**
 
-- 🌱 Exploring **AIOps, MLOps, and AI Infrastructure Operations**
+DevSecOps infrastructure lead spanning on-prem data center and cloud (GCP, AWS, Cloudflare). Four-plus years automating CI/CD, IaC, zero-trust identity, and platform security — from Netgear and Sony Soneium to healthcare GenAI, now leading hybrid infra end to end.
 
-- ⚡ Worked on **Sony's Soneium Blockchain Infrastructure, Netgear Platform Services**
-
-- 💬 Ask me about **DevOps, Kubernetes, AWS, Blockchain Infrastructure**
-
-- 📫 Mail : **rahulkarthi06.02@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-
-<p align="left">
-<a href="https://linkedin.com/in/rahul-r-a9b564211" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rahul-r" height="30" width="40" /></a>
+<!-- The graph is generated. Edit the model in assets/knowledge-graph.py, then run: python3 assets/knowledge-graph.py -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/knowledge-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/knowledge-graph.svg">
+    <img src="assets/knowledge-graph.svg" width="680" alt="An intel graph with Rahul R at the centre and six domains: Multi-cloud, Data center, IaC, CI/CD and GitOps, Security, and Platform. Concepts include WIF, Terraform, ArgoCD, Trivy, Kubernetes, and hybrid connectivity. Footer lists six decision rules from mechanism to outcomes.">
+  </picture>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-
-<p align="left">
-<a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://kubernetes.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a>
-<a href="https://www.terraform.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="terraform" width="40" height="40"/> </a>
-<a href="https://www.ansible.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="40" height="40"/> </a>
-<a href="https://argoproj.github.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg" alt="argocd" width="40" height="40"/> </a>
-<a href="https://github.com/features/actions" target="_blank"> <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="github actions" width="40" height="40"/> </a>
-<a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a>
-<a href="https://prometheus.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="40" height="40"/> </a>
-<a href="https://grafana.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-<a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
+<!-- Drawn daily by .github/workflows/snake.yml and published to the output branch. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rahul-ramakrishnan06/Rahul-ramakrishnan06/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rahul-ramakrishnan06/Rahul-ramakrishnan06/output/github-snake.svg">
+    <img width="680" alt="GitHub contribution grid for the past year, animated as a snake." src="https://raw.githubusercontent.com/Rahul-ramakrishnan06/Rahul-ramakrishnan06/output/github-snake.svg">
+  </picture>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rahul-ramakrishnan06&show_icons=true&locale=en&layout=compact" alt="Rahul-ramakrishnan06" /></p>
+## Field kit
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Rahul-ramakrishnan06&show_icons=true&locale=en" alt="Rahul-ramakrishnan06" /></p>
+<!-- Generated: python3 assets/character-card.py  and  python3 assets/journey.py -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/character-card-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/character-card.svg">
+    <img src="assets/character-card.svg" width="680" alt="Operator dossier for Rahul R: DevSecOps infrastructure lead, loadout bars for multi-cloud, data center, IaC, CI/CD, security, and open source, with vitals and public repo inventory.">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/journey.svg">
+    <img src="assets/journey.svg" width="680" alt="Mission timeline from student through VVDN, Sustainability Economics, Sony Soneium, iCliniq, to DevSecOps infrastructure lead.">
+  </picture>
+</p>
+
+<p align="center"><a href="GAME.md">▶ Run the one-minute mission brief</a></p>
+
+## Contact
+
+<!-- Cards are generated. Edit assets/contact-cards.py, then run: python3 assets/contact-cards.py -->
+<p align="center">
+  <a href="https://github.com/Rahul-ramakrishnan06"><img src="assets/cards/github.svg" width="216" alt="GitHub: Rahul-ramakrishnan06"></a>
+  <a href="https://in.linkedin.com/in/rahul-r-a9b564211"><img src="assets/cards/linkedin.svg" width="216" alt="LinkedIn: rahul-r-a9b564211"></a>
+  <a href="mailto:rahulkarthi06@gmail.com"><img src="assets/cards/email.svg" width="216" alt="Email: rahulkarthi06@gmail.com"></a>
+</p>
