@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 620" role="img" aria-labelledby="ct cd">
+<title id="ct">Rahul R operator character card</title>
+<desc id="cd">Character card. RAHUL R, DEVSECOPS INFRA LEAD. Loadout: Multi-cloud 5 of 5; Data center 4 of 5; IaC 5 of 5; CI/CD 5 of 5; Security 5 of 5; Open source 3 of 5.</desc>
+<style>
+.blink{animation:bl 1.1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.fillin{animation:fi .5s ease-out both}@keyframes fi{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+a.inv text{fill:#FF4D5A}a.inv:hover text{fill:#E8E8E8}
+@media (prefers-reduced-motion:reduce){.blink,.fillin{animation:none}}
+</style>
+<rect width="860" height="620" fill="#080808"/>
+<rect x="14" y="14" width="832" height="592" fill="none" stroke="#2A2A2A"/>
+<path d="M19 26H33M26 19V33" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M827 26H841M834 19V33" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M19 594H33M26 587V601" stroke="#C41E3A" stroke-width="1.2"/>
+<path d="M827 594H841M834 587V601" stroke="#C41E3A" stroke-width="1.2"/>
+
+<g id="skull" transform="translate(790,58) scale(1.0)">
+  <ellipse cx="0" cy="-2" rx="14" ry="16" fill="#8B0000" opacity="0.92"/>
+  <rect x="-10" y="8" width="20" height="10" rx="3" fill="#8B0000" opacity="0.92"/>
+  <ellipse cx="-5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <ellipse cx="5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <rect x="-3" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="0.5" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="-6" y="10" width="2" height="4" fill="#080808"/>
+  <rect x="4" y="10" width="2" height="4" fill="#080808"/>
+</g>
+
+<rect x="40" y="42" width="8" height="8" fill="#C41E3A"/>
+<text x="56" y="50" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2.4" fill="#C41E3A">OPERATOR CARD</text>
+<text x="38" y="100" font-family='Georgia, "Times New Roman", serif' font-size="42" fill="#E8E8E8">RAHUL</text>
+<text x="38" y="140" font-family='Georgia, "Times New Roman", serif' font-size="42" fill="#E8E8E8">R</text>
+<text x="42" y="168" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">CLASS   <tspan fill="#E8E8E8">DEVSECOPS INFRA LEAD</tspan></text>
+<text x="42" y="186" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">METHOD  <tspan fill="#E8E8E8">zero trust · GitOps</tspan><tspan class="blink" fill="#C41E3A">_</tspan></text>
+<line x1="38" y1="206" x2="822" y2="206" stroke="#E8E8E8" stroke-width="1.3"/>
+<text x="40" y="244" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2" fill="#C41E3A">LOADOUT</text>
+<text x="40" y="272" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">Multi-cloud</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.31s" x="230" y="259" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.39s" x="252" y="259" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.47s" x="274" y="259" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.55s" x="296" y="259" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.63s" x="318" y="259" width="15" height="15" fill="#C41E3A"/>
+<text x="350" y="272" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">5/5</text>
+<text x="40" y="302" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">Data center</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.43s" x="230" y="289" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.51s" x="252" y="289" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.59s" x="274" y="289" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.67s" x="296" y="289" width="15" height="15" fill="#C41E3A"/>
+<rect x="318" y="289" width="15" height="15" fill="#080808" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="350" y="302" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">4/5</text>
+<text x="40" y="332" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">IaC</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.55s" x="230" y="319" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.63s" x="252" y="319" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.71s" x="274" y="319" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.79s" x="296" y="319" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.87s" x="318" y="319" width="15" height="15" fill="#C41E3A"/>
+<text x="350" y="332" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">5/5</text>
+<text x="40" y="362" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">CI/CD</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.67s" x="230" y="349" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.75s" x="252" y="349" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.83s" x="274" y="349" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.91s" x="296" y="349" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.99s" x="318" y="349" width="15" height="15" fill="#C41E3A"/>
+<text x="350" y="362" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">5/5</text>
+<text x="40" y="392" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">Security</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.79s" x="230" y="379" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.87s" x="252" y="379" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.95s" x="274" y="379" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:1.03s" x="296" y="379" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:1.11s" x="318" y="379" width="15" height="15" fill="#C41E3A"/>
+<text x="350" y="392" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">5/5</text>
+<text x="40" y="422" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" fill="#E8E8E8">Open source</text>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.91s" x="230" y="409" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:0.99s" x="252" y="409" width="15" height="15" fill="#C41E3A"/>
+<rect class="fillin" style="transform-box:fill-box;transform-origin:center;animation-delay:1.07s" x="274" y="409" width="15" height="15" fill="#C41E3A"/>
+<rect x="296" y="409" width="15" height="15" fill="#080808" stroke="#1A1A1A" stroke-width="1.4"/>
+<rect x="318" y="409" width="15" height="15" fill="#080808" stroke="#1A1A1A" stroke-width="1.4"/>
+<text x="350" y="422" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#8A8A8A">3/5</text>
+<text x="40" y="456" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" fill="#8A8A8A">bars = public work, not skill rating</text>
+<line x1="536" y1="228" x2="536" y2="470" stroke="#2A2A2A"/>
+<text x="560" y="244" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2" fill="#C41E3A">VITALS</text>
+<text x="560" y="272" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">employer</text>
+<text x="560" y="289" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14" fill="#E8E8E8">stealth-startup</text>
+<text x="560" y="318" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">public repos</text>
+<text x="560" y="335" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14" fill="#E8E8E8">7</text>
+<text x="560" y="364" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">certs</text>
+<text x="560" y="381" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14" fill="#E8E8E8">AWS SAA · TF Associate</text>
+<text x="560" y="410" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#8A8A8A">stack</text>
+<text x="560" y="427" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14" fill="#E8E8E8">Python · Bash · HCL</text>
+<line x1="38" y1="484" x2="822" y2="484" stroke="#2A2A2A"/>
+<text x="40" y="508" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2" fill="#C41E3A">INVENTORY — CLICK IN FULL SVG</text>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops">
+<rect x="40" y="515" width="194" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="40" y="515" width="3" height="22" fill="#C41E3A"/>
+<text x="51" y="530" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">multicloud-karmada-gitops</text>
+</a>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup">
+<rect x="244.0" y="515" width="187" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="244.0" y="515" width="3" height="22" fill="#C41E3A"/>
+<text x="255.0" y="530" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">multicloud-karmada-setup</text>
+</a>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s">
+<rect x="440.8" y="515" width="180" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="440.8" y="515" width="3" height="22" fill="#C41E3A"/>
+<text x="451.8" y="530" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">supabase-selfhosted-k8s</text>
+</a>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api">
+<rect x="40" y="547" width="194" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="40" y="547" width="3" height="22" fill="#C41E3A"/>
+<text x="51" y="562" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">gcp-cloudrun-iac-rest-api</text>
+</a>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/DevOps_Projects">
+<rect x="244.0" y="547" width="122" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="244.0" y="547" width="3" height="22" fill="#C41E3A"/>
+<text x="255.0" y="562" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">DevOps_Projects</text>
+</a>
+<a class="inv" xlink:href="https://github.com/Rahul-ramakrishnan06/devops-ai-playbook">
+<rect x="376.0" y="547" width="144" height="22" fill="#111111" stroke="#2A2A2A"/>
+<rect x="376.0" y="547" width="3" height="22" fill="#C41E3A"/>
+<text x="387.0" y="562" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">devops-ai-playbook</text>
+</a>
+</svg>
