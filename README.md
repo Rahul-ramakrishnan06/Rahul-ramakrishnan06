@@ -50,25 +50,18 @@ DevSecOps infrastructure lead at **stealth-startup** · data center and cloud (G
 
 <p align="center"><a href="GAME.md"><strong>▶ Play Night patrol</strong></a> — one-minute text adventure (replaces the snake game).</p>
 
-## Mission log
+## Mission intel
 
-| Operation | Outcome |
-| :--- | :--- |
-| **stealth-startup** · now | DevSecOps Infra Lead — DC + GCP + AWS + Cloudflare. |
-| **iCliniq** · through Sep 2026 | WIF on 15+ pipelines; Chainguard + Trivy; GenAI on Cloud Run. |
-| **Sony / Soneium** | 99.99% mainnet uptime; GitOps; deploy time −40%. |
-| **Netgear / VVDN** | ECS production — deploy ~30% faster; cost ~25% lower. |
-
-## Active missions
-
-| Status | Repo | Threat model |
-| :--- | :--- | :--- |
-| ACTIVE | [multicloud-karmada-gitops](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops) | Cluster drift across fleets |
-| ACTIVE | [multicloud-karmada-setup](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup) | IaC / control-plane skew |
-| BUILDING | [supabase-selfhosted-k8s](https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s) | Self-hosted data plane on K8s |
-| ACTIVE | [gcp-cloudrun-iac-rest-api](https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api) | Serverless config drift |
-| LAB | [DevOps_Projects](https://github.com/Rahul-ramakrishnan06/DevOps_Projects) | Pipeline experiments |
-| REF | [devops-ai-playbook](https://github.com/Rahul-ramakrishnan06/devops-ai-playbook) | AI-assisted ops (fork) |
+<!-- python3 assets/missions-board.py -->
+<p align="center">
+  <a href="assets/missions-board.svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/missions-board-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/missions-board.svg">
+      <img src="assets/missions-board.svg" width="680" alt="Mission log and active missions on a black and red tactical board.">
+    </picture>
+  </a>
+</p>
 
 ## Contact
 

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 540" role="img" aria-labelledby="mbt mbd">
+<title id="mbt">Mission log and active missions</title>
+<desc id="mbd">Black and red tactical board with operation history and repository missions.</desc>
+<style>a.repo:hover text{fill:#E8E8E8}</style>
+<rect width="1000" height="540" fill="#080808"/>
+<rect x="12" y="12" width="976" height="516" fill="none" stroke="#2A2A2A"/>
+
+<g id="skull" transform="translate(942,42) scale(0.85)">
+  <ellipse cx="0" cy="-2" rx="14" ry="16" fill="#8B0000" opacity="0.92"/>
+  <rect x="-10" y="8" width="20" height="10" rx="3" fill="#8B0000" opacity="0.92"/>
+  <ellipse cx="-5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <ellipse cx="5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <rect x="-3" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="0.5" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="-6" y="10" width="2" height="4" fill="#080808"/>
+  <rect x="4" y="10" width="2" height="4" fill="#080808"/>
+</g>
+
+<text x="24" y="44" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2.5" fill="#C41E3A">MISSION LOG</text>
+<line x1="24" y1="54" x2="976" y2="54" stroke="#C41E3A" stroke-width="0.8"/>
+<text x="24" y="76" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">OPERATION</text>
+<text x="280" y="76" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">OUTCOME</text>
+<rect x="24" y="80" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="80" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="98" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="600" fill="#E8E8E8">stealth-startup · now</text>
+<text x="280" y="98" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12.5" fill="#8A8A8A">DevSecOps Infra Lead — DC + GCP + AWS + Cloudflare.</text>
+<rect x="24" y="114" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="114" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="132" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="600" fill="#E8E8E8">iCliniq · through Sep 2026</text>
+<text x="280" y="132" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12.5" fill="#8A8A8A">WIF on 15+ pipelines; Chainguard + Trivy; GenAI on Cloud Run.</text>
+<rect x="24" y="148" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="148" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="166" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="600" fill="#E8E8E8">Sony / Soneium</text>
+<text x="280" y="166" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12.5" fill="#8A8A8A">99.99% mainnet uptime; GitOps; deploy time −40%.</text>
+<rect x="24" y="182" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="182" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="200" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="600" fill="#E8E8E8">Netgear / VVDN</text>
+<text x="280" y="200" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12.5" fill="#8A8A8A">ECS production — deploy ~30% faster; cost ~25% lower.</text>
+<text x="24" y="254" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" letter-spacing="2.5" fill="#C41E3A">ACTIVE MISSIONS</text>
+<line x1="24" y1="264" x2="976" y2="264" stroke="#C41E3A" stroke-width="0.8"/>
+<text x="24" y="286" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">STATUS</text>
+<text x="130" y="286" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">REPO</text>
+<text x="420" y="286" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">THREAT MODEL</text>
+<rect x="24" y="290" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="290" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="308" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#C41E3A">ACTIVE</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops">
+<text x="130" y="308" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">multicloud-karmada-gitops</text>
+</a>
+<text x="420" y="308" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">Cluster drift across federated fleets</text>
+<rect x="24" y="324" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="324" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="342" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#C41E3A">ACTIVE</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup">
+<text x="130" y="342" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">multicloud-karmada-setup</text>
+</a>
+<text x="420" y="342" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">IaC sprawl and control-plane skew</text>
+<rect x="24" y="358" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="358" width="3" height="30" fill="#D4A574"/>
+<text x="38" y="376" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#D4A574">BUILDING</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s">
+<text x="130" y="376" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">supabase-selfhosted-k8s</text>
+</a>
+<text x="420" y="376" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">Self-hosted data plane on Kubernetes</text>
+<rect x="24" y="392" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="392" width="3" height="30" fill="#C41E3A"/>
+<text x="38" y="410" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#C41E3A">ACTIVE</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api">
+<text x="130" y="410" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">gcp-cloudrun-iac-rest-api</text>
+</a>
+<text x="420" y="410" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">Serverless and API config drift</text>
+<rect x="24" y="426" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="426" width="3" height="30" fill="#8A8A8A"/>
+<text x="38" y="444" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#8A8A8A">LAB</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/DevOps_Projects">
+<text x="130" y="444" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">DevOps_Projects</text>
+</a>
+<text x="420" y="444" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">Pipeline experiments and automation</text>
+<rect x="24" y="460" width="952" height="30" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24" y="460" width="3" height="30" fill="#8A8A8A"/>
+<text x="38" y="478" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10.5" font-weight="700" fill="#8A8A8A">REF</text>
+<a class="repo" xlink:href="https://github.com/Rahul-ramakrishnan06/devops-ai-playbook">
+<text x="130" y="478" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11.5" fill="#FF4D5A">devops-ai-playbook</text>
+</a>
+<text x="420" y="478" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">AI-assisted ops patterns (fork)</text>
+</svg>
