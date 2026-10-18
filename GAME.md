@@ -1,83 +1,91 @@
-# A short mission brief
+# Incident at 03:00
 
-No engine, no JavaScript. Every choice is a link. Click one to move.
+Pager lights the rack. Traffic still flows. You have **one minute** and **one decision chain**.
 
-Everything here points at real work. You can abort any time by scrolling up.
-
----
-
-## The safehouse
-
-> Red light on a rack of switches. Three clouds glow on a wall map — GCP, AWS,
-> Cloudflare. A data center hums behind a steel door. Someone has been hardening
-> this operation for years.
-
-Where do you go?
-
-- [Open the armory](#the-armory)
-- [Read rules of engagement](#rules-of-engagement)
-- [Pull mission files](#mission-files)
-- [Check open contracts](#open-contracts)
+No JavaScript — each choice is a link. Every path ends in something real.
 
 ---
 
-## The armory
+## 03:00 — alert fires
 
-> Tools that see the most use in the field.
+> **SYMPTOM:** Deploy pipeline green, but error rate climbing on the edge.  
+> **SCOPE:** Hybrid — workload spans **data center Kubernetes** and **Cloud Run**.  
+> **COMMS:** On-call lead (you). No heroics — reduce blast radius first.
 
-- [multicloud-karmada-gitops](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops) — GitOps patterns across clusters with Karmada.
-- [multicloud-karmada-setup](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup) — IaC to stand up the multi-cloud Karmada control plane.
-- [supabase-selfhosted-k8s](https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s) — Self-hosted data plane on Kubernetes.
-- [gcp-cloudrun-iac-rest-api](https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api) — Terraform for Cloud Run and supporting API infra.
-- [DevOps_Projects](https://github.com/Rahul-ramakrishnan06/DevOps_Projects) — Lab work: pipelines, automation, experiments.
-- [devops-ai-playbook](https://github.com/Rahul-ramakrishnan06/devops-ai-playbook) — Notes and patterns for AI-assisted ops (fork).
+What do you do **first**?
 
-- [Back to the safehouse](#the-safehouse)
-- [Read rules of engagement](#rules-of-engagement)
-
----
-
-## Rules of engagement
-
-> A card is taped to the door. Six lines, in order.
-
-1. **Mechanism** — understand network, identity, and state before you change them.
-2. **Least privilege** — no long-lived credentials in CI; federation where possible.
-3. **GitOps** — desired state lives in the repo, not on a laptop.
-4. **Supply chain** — hardened images and scans in every pipeline.
-5. **Observability** — uptime, cost, and recovery time are the scoreboard.
-6. **Outcomes** — blast radius and SLA beat tool fashion.
-
-- [Pull mission files](#mission-files)
-- [Back to the safehouse](#the-safehouse)
+- [A — Roll back the last release](#a--rollback)
+- [B — Scale out before you diagnose](#b--scale)
+- [C — Isolate the failing slice](#c--isolate)
+- [D — Pull logs and traces](#d--observe)
 
 ---
 
-## Mission files
+## A — Rollback
 
-> Completed operations, named.
+> GitOps means rollback is a **revert**, not a prayer. You check what changed in git, not what someone ran by hand.
 
-- **iCliniq** — multi-cloud healthcare platform: WIF across 15+ GitHub Actions pipelines, Chainguard + Trivy, GenAI on Cloud Run (through Sep 2026).
-- **Sony / Soneium** — L1/L2 blockchain infra: ArgoCD, Helm, 99.99% uptime on mainnet.
-- **Netgear (VVDN)** — ECS production infra, CI/CD, migration and cost wins.
-- **Sustainability Economics** — ECS microservices, GitHub Actions, Terraform.
+- [multicloud-karmada-gitops](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops) — how desired state should have moved.
+- [Rules of engagement](#rules) — GitOps is step 03.
 
-- [Open the armory](#the-armory)
-- [Back to the safehouse](#the-safehouse)
+**Next:** [Did you verify identity before the deploy?](#identity-check) · [Back to 03:00](#0300--alert-fires)
 
 ---
 
-## Open contracts
+## B — Scale
 
-> Work still on the table.
+> Scaling without isolation can amplify a bad build. You pause and ask: is this load or corruption?
 
-- Multi-cluster GitOps with Karmada — [multicloud-karmada-gitops](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops).
-- Self-hosted platform stacks on K8s — [supabase-selfhosted-k8s](https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s).
-- **Now** — DevSecOps infrastructure lead across **data center and cloud** (GCP, AWS, Cloudflare).
+- [gcp-cloudrun-iac-rest-api](https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api) — serverless scaling knobs live in IaC.
+- [Mission log on profile](README.md#mission-log) — Soneium uptime came from **controlled** change, not blind scale.
 
-- [Back to the safehouse](#the-safehouse)
-- [Leave intel](mailto:rahulkarthi06@gmail.com)
+**Next:** [Isolate instead](#c--isolate) · [Back to 03:00](#0300--alert-fires)
 
 ---
 
-Back to the [profile](https://github.com/Rahul-ramakrishnan06).
+## C — Isolate
+
+> Cut the blast radius: single cluster, single region, single deployment. Traffic shift only when you know the slice is clean.
+
+- [supabase-selfhosted-k8s](https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s) — data plane boundaries on K8s.
+- [multicloud-karmada-setup](https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup) — federation & placement.
+
+**Next:** [Observe](#d--observe) · [Back to 03:00](#0300--alert-fires)
+
+---
+
+## D — Observe
+
+> Metrics, logs, traces — in that order if the SLO is on fire. You need **one** golden signal before you touch prod.
+
+- [DevOps_Projects](https://github.com/Rahul-ramakrishnan06/DevOps_Projects) — dashboards & automation experiments.
+- Runbook tab **05 SLO** on the [profile README](README.md).
+
+**Next:** [Rollback if change correlates](#a--rollback) · [Back to 03:00](#0300--alert-fires)
+
+---
+
+## Identity check
+
+> A “green” pipeline with **long-lived keys** is a green lie. Federation or short-lived tokens — or you do not ship.
+
+- iCliniq field note: **WIF** across **15+** pipelines (see [mission log](README.md#mission-log)).
+- Runbook tab **01 WIF** on the [profile README](README.md).
+
+- [Close incident — send intel](mailto:rahulkarthi06@gmail.com)
+- [Back to 03:00](#0300--alert-fires)
+
+---
+
+## Rules
+
+1. Mechanism — network, identity, state.  
+2. Least privilege — no standing credentials in CI.  
+3. GitOps — desired state in version control.  
+4. Supply chain — scan and harden in the build.  
+5. Observability — uptime, cost, recovery time.  
+6. Outcomes — blast radius over tool fashion.
+
+---
+
+[← Back to perimeter map](https://github.com/Rahul-ramakrishnan06)

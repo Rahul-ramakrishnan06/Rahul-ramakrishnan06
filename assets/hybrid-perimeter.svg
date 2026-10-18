@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 580" role="img" aria-labelledby="pt pd">
+<title id="pt">Hybrid perimeter map — Punisher ops theme</title>
+<desc id="pd">Black tactical map from data center through WAN to multi-cloud. Current employer stealth-startup. Click zones for repositories.</desc>
+<style>.hotspot rect[fill=transparent]{cursor:pointer}.hotspot:hover rect[fill=transparent]{fill:#C41E3A44}</style>
+<rect width="1000" height="580" fill="#080808"/>
+
+<g opacity="0.35">
+  <circle cx="500" cy="300" r="220" fill="none" stroke="#C41E3A" stroke-width="1"/>
+  <line x1="280" y1="300" x2="720" y2="300" stroke="#E8E8E8" stroke-width="0.8"/>
+  <line x1="500" y1="80" x2="500" y2="520" stroke="#E8E8E8" stroke-width="0.8"/>
+</g>
+
+<g id="skull" transform="translate(920,52) scale(1.1)">
+  <ellipse cx="0" cy="-2" rx="14" ry="16" fill="#8A8A8A" opacity="0.92"/>
+  <rect x="-10" y="8" width="20" height="10" rx="3" fill="#8A8A8A" opacity="0.92"/>
+  <ellipse cx="-5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <ellipse cx="5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <rect x="-3" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="0.5" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="-6" y="10" width="2" height="4" fill="#080808"/>
+  <rect x="4" y="10" width="2" height="4" fill="#080808"/>
+</g>
+
+
+<g id="skull" transform="translate(48,520) scale(0.85)">
+  <ellipse cx="0" cy="-2" rx="14" ry="16" fill="#8B0000" opacity="0.92"/>
+  <rect x="-10" y="8" width="20" height="10" rx="3" fill="#8B0000" opacity="0.92"/>
+  <ellipse cx="-5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <ellipse cx="5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <rect x="-3" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="0.5" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="-6" y="10" width="2" height="4" fill="#080808"/>
+  <rect x="4" y="10" width="2" height="4" fill="#080808"/>
+</g>
+
+<text x="32" y="36" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="3" fill="#C41E3A">CLASSIFIED — HYBRID PERIMETER</text>
+<text x="32" y="72" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="26" font-weight="700" fill="#E8E8E8">Rack to region — one perimeter.</text>
+<text x="32" y="98" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" fill="#8A8A8A">DevSecOps Infra Lead · stealth-startup · DC + GCP + AWS + Cloudflare</text>
+<rect x="24" y="118" width="290" height="400" fill="#0F0F0F" stroke="#2A2A2A"/>
+<rect x="314" y="118" width="372" height="400" fill="#121010" stroke="#2A2A2A"/>
+<rect x="686" y="118" width="290" height="400" fill="#0D1014" stroke="#2A2A2A"/>
+<text x="44" y="142" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="2" fill="#C41E3A">DATA CENTER</text>
+<text x="334" y="142" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="2" fill="#C41E3A">WAN · ZERO TRUST</text>
+<text x="706" y="142" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="2" fill="#C41E3A">MULTI-CLOUD</text>
+<a href="https://github.com/Rahul-ramakrishnan06/DevOps_Projects" target="_blank" rel="noopener noreferrer"><g class="hotspot"><rect x="48" y="168" width="52" height="120" fill="#0F0F0F" stroke="#C41E3A" stroke-width="1"/>
+<line x1="56" y1="180" x2="92" y2="180" stroke="#2A2A2A"/>
+<line x1="56" y1="196" x2="92" y2="196" stroke="#2A2A2A"/>
+<line x1="56" y1="212" x2="92" y2="212" stroke="#2A2A2A"/>
+<circle cx="74.0" cy="270" r="4" fill="#C41E3A"/>
+<text x="74.0" y="304" text-anchor="middle" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">COMPUTE</text><rect x="48" y="168" width="52" height="140" fill="transparent"/></g></a>
+<a href="https://github.com/Rahul-ramakrishnan06/supabase-selfhosted-k8s" target="_blank" rel="noopener noreferrer"><g class="hotspot"><rect x="118" y="168" width="52" height="120" fill="#0F0F0F" stroke="#C41E3A" stroke-width="1"/>
+<line x1="126" y1="180" x2="162" y2="180" stroke="#2A2A2A"/>
+<line x1="126" y1="196" x2="162" y2="196" stroke="#2A2A2A"/>
+<line x1="126" y1="212" x2="162" y2="212" stroke="#2A2A2A"/>
+<circle cx="144.0" cy="270" r="4" fill="#C41E3A"/>
+<text x="144.0" y="304" text-anchor="middle" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">K8s / PLATFORM</text><rect x="118" y="168" width="52" height="140" fill="transparent"/></g></a>
+<g><rect x="188" y="168" width="52" height="120" fill="#0F0F0F" stroke="#C41E3A" stroke-width="1"/>
+<line x1="196" y1="180" x2="232" y2="180" stroke="#2A2A2A"/>
+<line x1="196" y1="196" x2="232" y2="196" stroke="#2A2A2A"/>
+<line x1="196" y1="212" x2="232" y2="212" stroke="#2A2A2A"/>
+<circle cx="214.0" cy="270" r="4" fill="#C41E3A"/>
+<text x="214.0" y="304" text-anchor="middle" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">NETWORK</text></g>
+<text x="44" y="330" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#E8E8E8">Bare metal · TOR · PDU discipline</text>
+<text x="44" y="350" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="12" fill="#8A8A8A">Custody and latency still win here</text>
+<line x1="314" y1="280" x2="686" y2="280" stroke="#444" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="260" y1="280" x2="314" y2="280" stroke="#C41E3A" stroke-width="2"/>
+<line x1="686" y1="280" x2="740" y2="280" stroke="#C41E3A" stroke-width="2"/>
+<polygon points="500,244 540,280 500,316 460,280" fill="#080808" stroke="#C41E3A" stroke-width="1.8"/>
+<text x="500" y="284" text-anchor="middle" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#E8E8E8">WIF</text>
+<text x="334" y="200" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" fill="#E8E8E8">IAP · mTLS · secret rotation</text>
+<text x="334" y="220" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" fill="#8A8A8A">No long-lived keys in CI</text>
+<a href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-setup" target="_blank" rel="noopener noreferrer"><text x="334" y="380" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">↗ IaC: multicloud-karmada-setup</text></a>
+<a href="https://github.com/Rahul-ramakrishnan06/multicloud-karmada-gitops" target="_blank" rel="noopener noreferrer"><text x="334" y="400" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" fill="#FF4D5A">↗ GitOps: multicloud-karmada-gitops</text></a>
+<circle cx="400" cy="280" r="5" fill="#C41E3A"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<a href="https://github.com/Rahul-ramakrishnan06/gcp-cloudrun-iac-rest-api" target="_blank" rel="noopener noreferrer"><g><rect x="706" y="168" width="250" height="100" rx="2" fill="#0D1014" stroke="#C41E3A" stroke-width="1.2"/>
+<text x="718" y="190" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="1.5" fill="#C41E3A">GCP</text>
+<text x="718" y="208" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#E8E8E8">Cloud Run · WIF · Firestore</text><rect x="706" y="168" width="250" height="100" fill="transparent"/></g></a>
+<a href="https://github.com/Rahul-ramakrishnan06/DevOps_Projects" target="_blank" rel="noopener noreferrer"><g><rect x="706" y="282" width="250" height="100" rx="2" fill="#0D1014" stroke="#C41E3A" stroke-width="1.2"/>
+<text x="718" y="304" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="1.5" fill="#C41E3A">AWS</text>
+<text x="718" y="322" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#E8E8E8">ECS · EKS · SES/S3</text><rect x="706" y="282" width="250" height="100" fill="transparent"/></g></a>
+<a href="https://github.com/Rahul-ramakrishnan06/DevOps_Projects" target="_blank" rel="noopener noreferrer"><g><rect x="706" y="396" width="250" height="100" rx="2" fill="#0D1014" stroke="#C41E3A" stroke-width="1.2"/>
+<text x="718" y="418" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="1.5" fill="#C41E3A">CLOUDFLARE</text>
+<text x="718" y="436" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#E8E8E8">WAF · Pages · R2</text><rect x="706" y="396" width="250" height="100" fill="transparent"/></g></a>
+<line x1="32" y1="528" x2="968" y2="528" stroke="#C41E3A" stroke-width="0.6"/>
+<text x="32" y="548" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">CLICK ZONES → REPOS</text>
+<text x="250" y="548" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">CURRENT · stealth-startup</text>
+<text x="500" y="548" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#8A8A8A">PAST · iCliniq · Soneium · Netgear</text>
+<a href="https://github.com/Rahul-ramakrishnan06/devops-ai-playbook" target="_blank" rel="noopener noreferrer"><text x="780" y="548" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9.5" fill="#FF4D5A">playbook ↗</text></a>
+<text x="32" y="568" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="8" fill="#8B0000">INSPIRED OPS AESTHETIC — NOT AFFILIATED WITH MARVEL</text>
+</svg>

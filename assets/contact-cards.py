@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Build contact cards for README.md footer."""
+"""Contact cards — black + red Punisher style."""
 import os
+from punisher_theme import PUNISHER as P, skull
 
 CARDS = [
     ("github",   "GitHub",   "Rahul-ramakrishnan06"),
@@ -9,9 +10,8 @@ CARDS = [
 ]
 
 W, H = 240, 76
-INK, MUTED, ACCENT, RULE, BG = "#191B19", "#6B6D71", "#C41E3A", "#E4E2DC", "#FAF9F6"
-SANS = '"Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif'
-MONO = 'ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace'
+SANS = '"Helvetica Neue", Helvetica, Arial, sans-serif'
+MONO = 'ui-monospace, "SF Mono", Menlo, Consolas, monospace'
 
 
 def esc(s):
@@ -19,15 +19,15 @@ def esc(s):
 
 
 def card(label, handle):
+    t = P
     size = 15 if len(handle) <= 22 else 12
     return "\n".join([
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{esc(label)}: {esc(handle)}">',
-        f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" fill="{BG}" stroke="{RULE}"/>',
-        f'<rect x="0.5" y="0.5" width="3" height="{H-1}" fill="{ACCENT}"/>',
-        f'<rect x="18" y="20" width="7" height="7" fill="{ACCENT}"/>',
-        f'<text x="32" y="27" font-family=\'{MONO}\' font-size="10.5" letter-spacing="1.8" fill="{ACCENT}">{esc(label.upper())}</text>',
-        f'<text x="18" y="54" font-family=\'{SANS}\' font-size="{size}" fill="{INK}">{esc(handle)}</text>',
-        f'<path d="M{W-26} 18H{W-16}V28M{W-16} 18L{W-27} 29" fill="none" stroke="{MUTED}" stroke-width="1.4"/>',
+        f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" fill="{t["BG"]}" stroke="{t["RULE"]}"/>',
+        f'<rect x="0.5" y="0.5" width="3" height="{H-1}" fill="{t["ACCENT"]}"/>',
+        skull(210, 38, 0.45, t["MUTED"], t["BG"]),
+        f'<text x="18" y="27" font-family=\'{MONO}\' font-size="10.5" letter-spacing="1.8" fill="{t["ACCENT"]}">{esc(label.upper())}</text>',
+        f'<text x="18" y="54" font-family=\'{SANS}\' font-size="{size}" fill="{t["INK"]}">{esc(handle)}</text>',
         '</svg>',
     ])
 

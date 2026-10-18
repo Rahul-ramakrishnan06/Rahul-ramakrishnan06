@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 124" role="img" aria-labelledby="rt rd">
+<title id="rt">Judgment runbook</title>
+<desc id="rd">Six Punisher-style operating tabs for hybrid infra.</desc>
+<rect width="1000" height="124" fill="#080808"/>
+
+<g id="skull" transform="translate(968,28) scale(0.75)">
+  <ellipse cx="0" cy="-2" rx="14" ry="16" fill="#C41E3A" opacity="0.92"/>
+  <rect x="-10" y="8" width="20" height="10" rx="3" fill="#C41E3A" opacity="0.92"/>
+  <ellipse cx="-5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <ellipse cx="5" cy="0" rx="4.5" ry="5.5" fill="#080808"/>
+  <rect x="-3" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="0.5" y="10" width="2.5" height="5" fill="#080808"/>
+  <rect x="-6" y="10" width="2" height="4" fill="#080808"/>
+  <rect x="4" y="10" width="2" height="4" fill="#080808"/>
+</g>
+
+<text x="24" y="28" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="10" letter-spacing="2" fill="#C41E3A">JUDGMENT RUNBOOK</text>
+<rect x="24.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="24.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="38.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">01</text>
+<text x="38.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">WIF</text>
+<text x="38.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">No standing keys</text>
+<rect x="184.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="184.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="198.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">02</text>
+<text x="198.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">SCAN</text>
+<text x="198.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">Harden + Trivy</text>
+<rect x="344.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="344.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="358.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">03</text>
+<text x="358.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">GITOPS</text>
+<text x="358.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">Truth in git</text>
+<rect x="504.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="504.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="518.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">04</text>
+<text x="518.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">DR</text>
+<text x="518.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">Know RTO/RPO</text>
+<rect x="664.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="664.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="678.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">05</text>
+<text x="678.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">SLO</text>
+<text x="678.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">Measure or guess</text>
+<rect x="824.0" y="44" width="152.0" height="68" fill="#111111" stroke="#2A2A2A"/>
+<rect x="824.0" y="44" width="4" height="68" fill="#C41E3A"/>
+<text x="838.0" y="64" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="9" fill="#8A8A8A">06</text>
+<text x="838.0" y="84" font-family='ui-monospace, "SF Mono", Menlo, Consolas, monospace' font-size="11" font-weight="700" fill="#E8E8E8">BLAST</text>
+<text x="838.0" y="102" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="11" fill="#8A8A8A">Shrink radius</text>
+</svg>
